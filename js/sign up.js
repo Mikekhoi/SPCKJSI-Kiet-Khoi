@@ -59,3 +59,4 @@ var emailValueSU = signUpEmail.value;
 
 
 });
+

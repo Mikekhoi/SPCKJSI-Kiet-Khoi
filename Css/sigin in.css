@@ -1,0 +1,23 @@
+.infol {
+border-radius: 15%;
+padding: 10px;
+display: flex;
+justify-content: space-evenly;
+height: 100vh;
+align-items: center;
+width: 100%;
+}
+
+.button {
+border-radius: 15%;
+padding: 10px;
+}
+
+.help {
+padding: 10px;
+border-radius: 15%;
+}
+
+.body {
+    background-image: url("./image/auth_bg-d3ae036f91b9268b6a8eb85b0a433a9dea0412ec9a4864b33f000986c1300465.png");
+}
