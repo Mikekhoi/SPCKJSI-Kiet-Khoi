@@ -1,6 +1,6 @@
 var option = {
     animation: true,
-    delay: 1000,
+    delay: 3000,
   };
 
   class Toasty {
