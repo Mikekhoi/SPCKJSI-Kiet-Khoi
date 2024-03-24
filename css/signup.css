@@ -1,23 +1,35 @@
-.infol {
-border-radius: 15%;
-padding: 10px;
-display: flex;
-justify-content: space-evenly;
-height: 100vh;
-align-items: center;
-width: 100%;
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    background-image: url(/image/auth_bg-d3ae036f91b9268b6a8eb85b0a433a9dea0412ec9a4864b33f000986c1300465.png);
+
+}
+.signup {
+    border-left: 1px solid rgba(255, 255, 255, .16);
+    max-width: 50%;
+    height: 100vh !important;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color: white;
+    background-color: #222222;
+    box-sizing: border-box;
+    padding: 40px 0;
+    font-size: 30px;
 }
 
-.button {
-border-radius: 15%;
-padding: 10px;
+.signup h1 {
+    margin-top: 0;
+}
+.signup input {
+    padding: 16px;
 }
 
-.help {
-padding: 10px;
-border-radius: 15%;
+span {
+    color: #d98f40;
 }
 
-.body {
-    background-image:url(/image/auth_bg-d3ae036f91b9268b6a8eb85b0a433a9dea0412ec9a4864b33f000986c1300465.png)
+.password-group {
+    
 }

@@ -53,10 +53,6 @@ signUpBtn.addEventListener("click", (e) => {
         alert(errorMessage);
         // ..
       });
-
-
   }
-
-
 });
 
