@@ -26,6 +26,25 @@ body {
     padding: 16px;
 }
 
-span {
+h1 span {
     color: #d98f40;
+    font-family: Montserrat, Helvetica, sans-serif;
+}
+.test {
+    color: #57a5cc;
+    text-decoration: none;
+}
+.test:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.aquire-help {
+    color: #57a5cc;
+    text-decoration: none;
+}
+
+.aquire-help:hover {
+    color: orange;
+    text-decoration: underline;
 }
