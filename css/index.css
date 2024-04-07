@@ -26,4 +26,85 @@ body {
     display: flex;
     list-style-type: none;
     padding: 0;
+    margin-bottom: 10px;
 }
+
+
+.nav {
+    color: #1e1c1c !important;
+    background-color: black !important;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  
+  }
+  
+#games {
+    max-width: 100vw;
+    margin: auto;
+  }
+
+  #collection {
+    padding: 20px 0;
+    background-color: antiquewhite;
+  }
+  
+  .collection-inner {
+    border-radius: 10px;
+    padding: 32px;
+    background: #fff;
+    margin: 80px 40px;
+  }
+  
+  .collection-inner p,
+  .collection-inner h1 {
+    color: #000;
+  }
+
+#mods {
+  background-image: url(8b28ea342abe529f205a4a13af64b32b.jpg);
+  padding: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#media {
+  padding: 20px 0;
+  background-image: url(cute-light-blue-background-pt0tnt7g7p9uzkwp.jpg);
+  padding-top: 90px;
+}
+
+#mods {
+    padding-top: 90px;
+  }
+
+ #sigin {
+    padding: 32px 0px;
+  }
+
+  .navbar-item {
+    display: inline-block;
+    color: rgb(223, 225, 229);
+    padding: 30px 16px;
+    height: 100%;
+    text-decoration: none;
+  }
+  
+  .navbar-item:hover {
+    background-color: white;
+    color: black
+  }
+
+.nav li a:hover {
+background-color: white;
+color: orange;
+
+} 
+
+
+
+
