@@ -1,3 +1,75 @@
 body {
 background-image: url("/image/auth_bg-d3ae036f91b9268b6a8eb85b0a433a9dea0412ec9a4864b33f000986c1300465.png");
 }
+
+.signin-container {
+    background-color: #222222;
+    width: 50%;
+    height: 100vh;
+    
+}
+
+.signin-info {
+    width: 500px;
+    margin: auto;
+}
+
+.signin-header {
+    color: white;
+}
+
+.signin-header span {
+    color: #d98f40;
+}
+
+.info input {
+    width: 100%;
+    padding: 10px;
+    margin: 16px 0 16px 0;
+}
+
+.email {
+    margin: 5px;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.btn-signin {
+    width: 100%;
+    padding: 5px;
+    background-color: #d98f40;
+    border-radius: 8px;
+    color: white;
+    padding: 7px;
+    margin: 10px 0;
+}
+
+.btn-signin:hover {
+    background-color: #bb6333;
+}
+.des {
+    color: #a7a7a7;
+    margin: 16px 0 16px 0;
+}
+
+.des span {
+    color: white;
+}
+
+.help label {
+    color: white;
+    margin: 16px 0 16px 12px;
+}
+
+.help p {
+    color: white;
+}
+
+.help p a {
+    text-decoration: none;
+}
+
+.help p a:hover {
+    text-decoration: underline;
+    color: #d98f40;
+}

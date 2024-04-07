@@ -9,14 +9,21 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Sign In</h1>
+  <div class="signin-container">
+    <div class="signin-info">
+      <div class="signin-header">
+        <h1>Sign In To <span>Mod Vault</span></h1>
+      </div>
     <div class="info">
+      <div class="des">
+        <p>You need to <span>log in</span> before continuing.</p>
+      </div>
       <input id="signin-email" class="email" type="email" placeholder="Email" />
       <br />
       <input class="email" id="signin-password" type="password" placeholder="Password" />
     </div>
     <div class="button">
-      <button class="btn-primary" id="signin-btn" type="submit">
+      <button class="btn-signin" id="signin-btn" type="submit">
         Sign In
       </button>
     </div>
@@ -24,16 +31,9 @@
       <div>
         <input value="true" type="checkbox" /><label>Remember me</label>
       </div>
-
-      <a href="https://www.netflix.com/dz-en/LoginHelp">Need Help ?</a>
+      <p>Dont have an account? <a href="./signup.html">Sign Up</a></p>
     </div>
   </form>
-  <div id="toast" class="toast align-items-center text-white border-0" role="alert" aria-live="assertive"
-  aria-atomic="true" style="position: fixed; top: 0; right: 0; z-index: 11; margin: 20px">
-  <div class="d-flex">
-    <div id="toast-content" class="toast-body">
-      Hello, world! This is a toast message.
-    
 </body>
 <script type="module" src="./js/index.js"></script>
 <script type="module" src="./js/signin.js"></script>
