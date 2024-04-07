@@ -13,15 +13,9 @@ import {
 import Toasty from "./toast.js";
 
  c89e418eccc88df34d53316bcf03be8f826340d2
-const auth = getAuth();
-const signInEmail = document.getElementById("signin-email");
-const signInPass = document.getElementById("signin-password");
-const signInBtn = document.getElementById("signin-btn");
  HEAD
 console.log(auth);
 console.log(auth);
-const toastHTMLElement = document.getElementById("toast");
-const toastContent = document.getElementById("toast-content");
 
 
 signInBtn.addEventListener("click", (e) => {
@@ -90,7 +84,7 @@ signInBtn.addEventListener("click", (e) => {
             async function signIn() {
             signInToast.showAlert("Đăng nhập thành công!", 'green');
             await new Promise(resolve => setTimeout(resolve, 1000))
-            window.location.href ="index.html";
+            window.location.href = "index.html";
             }
             signIn()
         })
