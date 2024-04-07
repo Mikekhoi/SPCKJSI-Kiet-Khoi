@@ -79,11 +79,7 @@ signInBtn.addEventListener("click", (e) => {
     const signInToast = new Toasty(toastHTMLElement, toastContent);
     if(emailValueSI.trim().length == 0 || passwordValueSI.trim().length == 0)
     {
-<<<<<<< HEAD
         signInToast.showAlert("Không được để trống!", 'red');
-=======
-        signInToast.showAlert("Không để trống", 'red');
->>>>>>> c89e418eccc88df34d53316bcf03be8f826340d2
         signInToast.showAlert("Không để trống", 'red');
     }
     else {
@@ -94,22 +90,14 @@ signInBtn.addEventListener("click", (e) => {
             async function signIn() {
             signInToast.showAlert("Đăng nhập thành công!", 'green');
             await new Promise(resolve => setTimeout(resolve, 1000))
-<<<<<<< HEAD
             window.location.href ="index.html";
-=======
-            window.location.href = "index.html";
->>>>>>> c89e418eccc88df34d53316bcf03be8f826340d2
             }
             signIn()
         })
         .catch((error) => {
             const errorCode = error.code;
             const errorMessage = error.message;
-<<<<<<< HEAD
             signInToast.showAlert(errorMessage, 'red')
-=======
-            signInToast.showAlert(errorMessage, 'red');
->>>>>>> c89e418eccc88df34d53316bcf03be8f826340d2
         })
     }
 })
