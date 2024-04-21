@@ -166,7 +166,7 @@ color: white;
 }
 
 .row h4 {
-  size: ;
+  size ;
 }
 
 footer {
@@ -182,7 +182,9 @@ footer p {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 48px 32px
+  padding: 48px 32px;
+  max-width: 85%;
+  margin:auto;
 }
 
 .footer-title {
@@ -215,6 +217,7 @@ footer p {
 
 .right-footer {
   width: 25%;
+  flex: 1;
 }
 
 .footer-btn-premium {
@@ -226,4 +229,31 @@ footer p {
   padding: 14px 8px;
   border: 0;
   border-radius: 2px;
+}
+
+.network-stats h3 {
+  color: white;
+  font-size: 15px;
+}
+
+.networkstats{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.networkstats h4 {
+  font-size: 15px;
+  margin: 0;
+}
+.networkstats li {
+  flex-basis: 50%;
+  color: #8f948e;
+  font-size: 13px;
+}
+
+.stat {
+  margin-bottom: 10px;
 }
