@@ -276,4 +276,26 @@ footer p {
 
 .social-contact {
   flex-basis: 50%;
+.amount {
+border: 0;
+background-color: #d98f40;
+border-radius: 2px;
+color:  #fff;
+margin: 25px;
+padding: 10px;
+}
+
+
+.section-1 {
+  text-align: center;
+}
+
+.databg {
+  background-image: url(/image/auth_bg-d3ae036f91b9268b6a8eb85b0a433a9dea0412ec9a4864b33f000986c1300465.png);
+}
+
+.load {
+  background-color: #57a5cc;
+  color: #fff;
+}
 }
