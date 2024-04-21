@@ -191,6 +191,7 @@ footer p {
   padding: 48px 32px;
   max-width: 85%;
   margin:auto;
+  flex-wrap: wrap;
 }
 
 .footer-title {
@@ -262,4 +263,17 @@ footer p {
 
 .stat {
   margin-bottom: 10px;
+}
+
+.content-contact {
+  flex-basis: 100%;
+  display: flex;
+}
+
+.logo-contact {
+  flex-basis: 50%;
+}
+
+.social-contact {
+  flex-basis: 50%;
 }
