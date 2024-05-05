@@ -371,3 +371,19 @@ padding: 10px;
   background-color: #d98f40;
   color: white;
 }
+
+.icon {
+  opacity: 0.4;
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin-left: 32px;
+}
+
+.icon:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+    display: flex;
+}
