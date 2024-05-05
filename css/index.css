@@ -188,7 +188,9 @@ footer p {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 48px 32px
+  padding: 48px 32px;
+  max-width: 85%;
+  margin:auto;
 }
 
 .footer-title {
@@ -221,6 +223,7 @@ footer p {
 
 .right-footer {
   width: 25%;
+  flex: 1;
 }
 
 .footer-btn-premium {
@@ -234,25 +237,29 @@ footer p {
   border-radius: 2px;
 }
 
-.amount {
-border: 0;
-background-color: #d98f40;
-border-radius: 2px;
-color:  #fff;
-margin: 25px;
-padding: 10px;
+.network-stats h3 {
+  color: white;
+  font-size: 15px;
 }
 
-
-.section-1 {
-  text-align: center;
+.networkstats{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.databg {
-  background-image: url(/image/auth_bg-d3ae036f91b9268b6a8eb85b0a433a9dea0412ec9a4864b33f000986c1300465.png);
+.networkstats h4 {
+  font-size: 15px;
+  margin: 0;
+}
+.networkstats li {
+  flex-basis: 50%;
+  color: #8f948e;
+  font-size: 13px;
 }
 
-.load {
-  background-color: #57a5cc;
-  color: #fff;
+.stat {
+  margin-bottom: 10px;
 }
