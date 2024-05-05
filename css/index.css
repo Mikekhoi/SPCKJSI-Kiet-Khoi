@@ -144,6 +144,7 @@ h4 {
 
 .margin-fix {
   padding-top: 84px;
+  text-align: center;
 }
 
 .section-1 {
@@ -263,3 +264,28 @@ footer p {
 .stat {
   margin-bottom: 10px;
 }
+
+.amount {
+background-color: #d98f40;
+color: white;
+border: 10px;
+margin: 20px;
+background-color: #d98f40;
+}
+.databg {
+  background-color: blue;
+  color: white;
+  position: relative;
+  height: 68px;
+}
+
+.inddam {
+size: 10px;
+color: white;
+}
+
+.load {
+position: absolute;
+
+}
+
