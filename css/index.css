@@ -177,7 +177,6 @@ button {
 
 footer {
   background-color: black;
-  height: 100vh;
   margin: 10 0;
 }
 
@@ -192,6 +191,10 @@ footer p {
   max-width: 85%;
   margin:auto;
   flex-wrap: wrap;
+  border-style: solid;
+    border-width: 1px 0 0 0;
+    border-image-source: linear-gradient(to right, rgba(255, 255, 255, 0), #fff 52%, rgba(255, 255, 255, 0));
+    border-image-slice: 1;
 }
 
 .footer-title {
@@ -298,4 +301,73 @@ padding: 10px;
   background-color: #57a5cc;
   color: #fff;
 }
+}
+
+.bar-icon-icon {
+  width: 60px;
+}
+
+.bar-icon {
+  margin: 0px 80px;
+}
+
+.bar {
+  border-top: 1px solid #5d5d5d;
+  background-color:#222;
+}
+
+.bar-items {
+  max-width: 940px;
+  margin: auto;
+  padding: 40px 0px;
+  display: flex;
+}
+
+.span {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+  margin-right: 16px;
+  
+}
+
+.bar-icon-wrapper {
+  display: flex;
+}
+
+.bar-info {
+  color: white;
+  width: 256px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.bar-btn {
+      width: 100%; 
+      background-color: transparent;
+      color: #d98f40;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      border: 1px solid #d98f40;
+      text-transform: uppercase;
+      font-weight: bold;
+      transition: all 0.15s ease-in-out;
+      letter-spacing: 1.25px;
+      font-size: 14px;
+      min-width: 150px;
+      margin: 0 80px;
+  }
+
+.bar-btn:hover {
+  background-color: #d98f40;
+  color: white;
 }
