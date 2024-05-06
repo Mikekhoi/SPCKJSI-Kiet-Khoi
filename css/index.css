@@ -39,7 +39,6 @@ body {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-
 }
 
 .nav img {
@@ -59,7 +58,9 @@ body {
 
 .navbar-item:hover {
   background-color: rgb(226, 221, 215);
-  color: white;
+  color: black;
+  text-decoration: none;
+  transition: ease-in-out 0.4s;
 }
 
 #games {
@@ -211,8 +212,10 @@ footer p {
   margin-bottom: 12px;
 }
 
+
 .footer-link :hover {
   color: #d98f40;
+  text-decoration: none;
 }
 
 .mod-vault {
@@ -415,4 +418,8 @@ color: white;
 position: absolute;
 
 }
-
+.footer-btn-premium:hover {
+  color: white;
+  transition: all 0.2s ease-in-out;
+  background-color: #CE7F45;
+}
