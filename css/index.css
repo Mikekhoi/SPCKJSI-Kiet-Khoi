@@ -423,3 +423,12 @@ position: absolute;
   transition: all 0.2s ease-in-out;
   background-color: #CE7F45;
 }
+
+.content {
+  display: flex;
+  width: 250px;
+  margin: auto;
+  justify-content: flex-end;
+  width: auto;
+  flex: 1;
+}
