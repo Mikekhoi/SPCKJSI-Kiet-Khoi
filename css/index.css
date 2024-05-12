@@ -189,7 +189,7 @@ footer p {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 48px 32px;
+  padding: 48px 32px 0px;
   max-width: 85%;
   margin:auto;
   flex-wrap: wrap;
@@ -383,7 +383,8 @@ padding: 10px;
     width: 24px;
     height: 24px;
     margin-left: 32px;
-}
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  }
 
 .icon:hover {
   opacity: 1;
@@ -425,10 +426,46 @@ position: absolute;
 }
 
 .content {
-  display: flex;
+  display: flex;  
   width: 250px;
   margin: auto;
   justify-content: flex-end;
   width: auto;
   flex: 1;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 15px;
+
+}
+.copyrights {
+  width: 100%;
+}
+
+.copyrights-content {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 0 0 20px 0;
+  flex-direction: row;
+  text-align: left;
+  padding: 20px 15px;
+  border-top: 1px solid #5d5d5d;
+}
+
+.rj-copyright {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.copyrights-link {
+  color: white;
+}
+
+.copyrights-link a {
+  color: white;
+}
+
+.copyrights-link a:hover {
+  transition: color 0.2s ease-in-out;
+  text-decoration: none;
+  color: #d98f40;
 }
