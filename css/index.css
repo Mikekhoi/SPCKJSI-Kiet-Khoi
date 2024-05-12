@@ -404,7 +404,7 @@ margin: 20px;
 background-color: #d98f40;
 }
 .databg {
-  background-color: blue;
+  background-color: #2454b2;
   color: white;
   position: relative;
   height: 68px;
@@ -417,7 +417,9 @@ color: white;
 
 .load {
 position: absolute;
-
+right: 4px;
+top: 4px;
+clip-path: polygon(0 0, 100% 0, 100% 100%, 60px 100%);
 }
 .footer-btn-premium:hover {
   color: white;
@@ -468,4 +470,17 @@ position: absolute;
   transition: color 0.2s ease-in-out;
   text-decoration: none;
   color: #d98f40;
+.line {
+ text-align: left;
+ padding: 18px;
+size: 5px;
+}
+
+.user-profile-menu-icon-collections{
+  background-image: url("https://www.nexusmods.com/assets/images/icons/icon-collections.svg");
+  height: 24px;
+  width: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+align-items: center;
 }
