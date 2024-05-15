@@ -270,13 +270,19 @@ background-color: #d98f40;
 color: white;
 border: 10px;
 margin: 20px;
-background-color: #d98f40;
+background-color: #ce924f;
+padding: 10px;
+}
+
+.amount :hover {
+  background-color: #9d6a34;
 }
 .databg {
   background-color: #2454b2;
   color: white;
   position: relative;
   height: 68px;
+  border-radius: 10px;
 }
 
 .inddam {
@@ -293,7 +299,7 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 60px 100%);
 
 .line {
  text-align: left;
- padding: 18px;
+ padding: 16px;
 size: 5px;
 }
 
@@ -303,5 +309,15 @@ size: 5px;
   width: 24px;
   background-position: center;
   background-repeat: no-repeat;
-align-items: center;
+
+}
+
+.banner {
+  display: flex;
+  color: white;
+}
+
+.spilt {
+background: linear-gradient(to right, #040404, 70%, transparent), url(/image/auth_bg-d3ae036f91b9268b6a8eb85b0a433a9dea0412ec9a4864b33f000986c1300465.png) right / 60% no-repeat, #040404;
+;
 }
