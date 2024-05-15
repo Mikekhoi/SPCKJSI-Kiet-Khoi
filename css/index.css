@@ -39,7 +39,6 @@ body {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-
 }
 
 .nav img {
@@ -59,7 +58,9 @@ body {
 
 .navbar-item:hover {
   background-color: rgb(226, 221, 215);
-  color: white;
+  color: black;
+  text-decoration: none;
+  transition: ease-in-out 0.4s;
 }
 
 #games {
@@ -178,7 +179,6 @@ button {
 
 footer {
   background-color: black;
-  height: 100vh;
   margin: 10 0;
 }
 
@@ -189,9 +189,14 @@ footer p {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 48px 32px;
+  padding: 48px 32px 0px;
   max-width: 85%;
   margin:auto;
+  flex-wrap: wrap;
+  border-style: solid;
+    border-width: 1px 0 0 0;
+    border-image-source: linear-gradient(to right, rgba(255, 255, 255, 0), #fff 52%, rgba(255, 255, 255, 0));
+    border-image-slice: 1;
 }
 
 .footer-title {
@@ -207,8 +212,10 @@ footer p {
   margin-bottom: 12px;
 }
 
+
 .footer-link :hover {
   color: #d98f40;
+  text-decoration: none;
 }
 
 .mod-vault {
@@ -265,6 +272,130 @@ footer p {
   margin-bottom: 10px;
 }
 
+.content-contact {
+  flex-basis: 100%;
+  display: flex;
+}
+
+.logo-contact {
+  flex-basis: 50%;
+}
+
+.social-contact {
+  flex-basis: 50%;
+.amount {
+border: 0;
+background-color: #d98f40;
+border-radius: 2px;
+color:  #fff;
+margin: 25px;
+padding: 10px;
+}
+
+
+.section-1 {
+  text-align: center;
+}
+
+.databg {
+  background-image: url(/image/auth_bg-d3ae036f91b9268b6a8eb85b0a433a9dea0412ec9a4864b33f000986c1300465.png);
+}
+
+.load {
+  background-color: #57a5cc;
+  color: #fff;
+}
+}
+
+.bar-icon-icon {
+  width: 60px;
+}
+
+.bar-icon {
+  margin: 0px 80px;
+}
+
+.bar {
+  border-top: 1px solid #5d5d5d;
+  background-color:#222;
+}
+
+.bar-items {
+  max-width: 940px;
+  margin: auto;
+  padding: 40px 0px;
+  display: flex;
+}
+
+.span {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+  margin-right: 16px;
+  
+}
+
+.bar-icon-wrapper {
+  display: flex;
+}
+
+.bar-info {
+  color: white;
+  width: 256px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.bar-btn {
+      width: 100%; 
+      background-color: transparent;
+      color: #d98f40;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      border: 1px solid #d98f40;
+      text-transform: uppercase;
+      font-weight: bold;
+      transition: all 0.15s ease-in-out;
+      letter-spacing: 1.25px;
+      font-size: 14px;
+      min-width: 150px;
+      margin: 0 80px;
+  }
+
+.bar-btn:hover {
+  background-color: #d98f40;
+  color: white;
+}
+
+.icon {
+  opacity: 0.4;
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin-left: 32px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  }
+
+.icon:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+    display: flex;
+}
+
+.social-wrapper {
+  display: flex;
+}
 .amount {
 background-color: #d98f40;
 color: white;
@@ -295,6 +426,56 @@ position: absolute;
 right: 4px;
 top: 4px;
 clip-path: polygon(0 0, 100% 0, 100% 100%, 60px 100%);
+}
+.footer-btn-premium:hover {
+  color: white;
+  transition: all 0.2s ease-in-out;
+  background-color: #CE7F45;
+}
+
+.content {
+  display: flex;  
+  width: 250px;
+  margin: auto;
+  justify-content: flex-end;
+  width: auto;
+  flex: 1;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 15px;
+
+}
+.copyrights {
+  width: 100%;
+}
+
+.copyrights-content {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 0 0 20px 0;
+  flex-direction: row;
+  text-align: left;
+  padding: 20px 15px;
+  border-top: 1px solid #5d5d5d;
+}
+
+.rj-copyright {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.copyrights-link {
+  color: white;
+}
+
+.copyrights-link a {
+  color: white;
+}
+
+.copyrights-link a:hover {
+  transition: color 0.2s ease-in-out;
+  text-decoration: none;
+  color: #d98f40;
 }
 
 .line {
