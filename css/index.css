@@ -283,6 +283,7 @@ footer p {
 
 .social-contact {
   flex-basis: 50%;
+}
 .amount {
 border: 0;
 background-color: #d98f40;
@@ -297,15 +298,14 @@ padding: 10px;
   text-align: center;
 }
 
-.databg {
-  background-image: url(/image/auth_bg-d3ae036f91b9268b6a8eb85b0a433a9dea0412ec9a4864b33f000986c1300465.png);
-}
 
-.load {
+
+.line {
   background-color: #57a5cc;
   color: #fff;
+  position: absolute;
 }
-}
+
 
 .bar-icon-icon {
   width: 60px;
@@ -414,6 +414,7 @@ padding: 10px;
   position: relative;
   height: 68px;
   border-radius: 10px;
+ 
 }
 
 .inddam {
@@ -421,7 +422,7 @@ size: 10px;
 color: white;
 }
 
-.load {
+.Pic {
 position: absolute;
 right: 4px;
 top: 4px;
@@ -484,21 +485,20 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 60px 100%);
 size: 5px;
 }
 
-.user-profile-menu-icon-collections{
+.user-profile-menu-icon-collections {
   background-image: url("https://www.nexusmods.com/assets/images/icons/icon-collections.svg");
   height: 24px;
   width: 24px;
   background-position: center;
   background-repeat: no-repeat;
-
-}
-
-.banner {
   display: flex;
   color: white;
 }
 
-.spilt {
-background: linear-gradient(to right, #040404, 70%, transparent), url(/image/auth_bg-d3ae036f91b9268b6a8eb85b0a433a9dea0412ec9a4864b33f000986c1300465.png) right / 60% no-repeat, #040404;
-;
+.banner {
+ 
 }
+
+
+
+
