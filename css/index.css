@@ -301,9 +301,9 @@ padding: 10px;
 
 
 .line {
-  background-color: #57a5cc;
+  /* background-color: #2454b2;
   color: #fff;
-  position: absolute;
+  position: absolute; */
 }
 
 
@@ -409,12 +409,18 @@ padding: 10px;
   background-color: #9d6a34;
 }
 .databg {
-  background-color: #2454b2;
+  /* background-color: #2454b2;
   color: white;
   position: relative;
   height: 68px;
   border-radius: 10px;
- 
+ padding: 16px; */
+ background-color: #2454b2;
+ border-radius: 10px;
+ position: relative;
+ height: 68px;
+ padding: 16px;
+
 }
 
 .inddam {
@@ -422,11 +428,28 @@ size: 10px;
 color: white;
 }
 
-.Pic {
+/* .Pic {
 position: absolute;
 right: 4px;
-top: 4px;
+  top: 4px;
+  height: 100%;
 clip-path: polygon(0 0, 100% 0, 100% 100%, 60px 100%);
+ background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  width: 644px;
+  object-fit: cover;
+  object-position: 0%;
+
+}
+.Pic img {
+  object-fit: cover;
+} */
+.picture{
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 60px 100%);
 }
 .footer-btn-premium:hover {
   color: white;
@@ -481,24 +504,29 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 60px 100%);
 
 .line {
  text-align: left;
- padding: 16px;
-size: 5px;
+  size: 5px;
+  color: white;
+  display: flex;
 }
 
-.user-profile-menu-icon-collections {
-  background-image: url("https://www.nexusmods.com/assets/images/icons/icon-collections.svg");
+
+
+.banner {  
+  flex: 1;
   height: 24px;
   width: 24px;
   background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
+  background: no-repeat;
   color: white;
+  letter-spacing: 0.15px;
 }
 
-.banner {
- 
+.user-profile-menu-icon-collections {
+  background-image: url(https://www.nexusmods.com/assets/images/icons/icon-collections.svg);
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
 }
-
 
 
 
