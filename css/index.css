@@ -528,5 +528,33 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 60px 100%);
   background-repeat: no-repeat;
 }
 
+/* .expandtitle-img:hover {
+  opacity: 1;
+}
 
+.btnexpand {
+  text-indent: 0;
+  list-style: none;
+  overflow: visible;
+}
 
+.add_favourite {
+  display: block;
+  font-size: 11px;
+  padding: 4px 5px;
+  color: #fff;
+  text-transform: uppercase;
+} */
+
+.title-game {
+  position: relative;
+}
+
+.expandtitle-img {
+  position: absolute;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
