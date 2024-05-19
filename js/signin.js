@@ -36,7 +36,7 @@ signInBtn.addEventListener("click", (e) => {
             .catch((error) => {
                 const errorCode = error.code;
                 const errorMessage = error.message;
-                signInToast.showAlert(errorMessage, 'red')
+                alert(errorMessage, 'red')
             })
     }
 })
