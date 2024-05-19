@@ -2,7 +2,6 @@ import {
     getAuth,
     signInWithEmailAndPassword,
 } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-auth.js";
-import Toasty from "./toast.js";
 
 const auth = getAuth();
 const signInEmail = document.getElementById("signin-email");
@@ -10,7 +9,6 @@ const signInPass = document.getElementById("signin-password");
 const signInBtn = document.getElementById("signin-btn");
 const toastHTMLElement = document.getElementById("toast");
 const toastContent = document.getElementById("toast-content");
-console.log(auth)
 
 
 signInBtn.addEventListener("click", (e) => {
@@ -20,8 +18,8 @@ signInBtn.addEventListener("click", (e) => {
 
     const signInToast = new Toasty(toastHTMLElement, toastContent);
     if (emailValueSI.trim().length == 0 || passwordValueSI.trim().length == 0) {
-        signInToast.showAlert("Không được để trống!", 'red');
-        signInToast.showAlert("Không để trống", 'red');
+        alert("Không được để trống!")
+        alert("Không để trống",)
     }
     else {
         signInWithEmailAndPassword(auth, emailValueSI, passwordValueSI)

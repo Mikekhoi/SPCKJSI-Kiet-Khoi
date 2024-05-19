@@ -3,7 +3,6 @@ import {
   createUserWithEmailAndPassword,
   updateProfile
 } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-auth.js";
-import Toasty from "./toast.js";
 
 
 const auth = getAuth();
@@ -29,22 +28,24 @@ signUpBtn.addEventListener("click", (e) => {
     signUpPass.value.trim().length == 0 ||
     signUpConfirmPassword.value.trim().length == 0
   ) {
-    signUpToast.showAlert("Something still empty :(", 'red');
+    alert("Something still empty :(")
   } else if (signUpPass.value.trim().length < 8) {
-    signUpToast.showAlert("Password must be at least 8 characters :(", 'red');
+    alert("Password must be at least 8 characters :(")
   } else if (!signUpPass.value.trim().match(vietThuong)) {
-    signUpToast.showAlert("Password must have at least 1 lowercase character :(", 'red');
+    alert("Password must have at least 1 lowercase character :(")
   } else if (!signUpPass.value.trim().match(vietHoa)) {
-    signUpToast.showAlert("Password must have at least 1 uppercase character :(", 'red');
+    alert("Password must have at least 1 uppercase character :(")
   } else if (!signUpPass.value.trim().match(chuSo)) {
-    signUpToast.showAlert("Password must have at least 1 alphanumeric character :(", 'red')
+    alert("Password must have at least 1 alphanumeric character :(")
   } else if (signUpPass.value.trim() != signUpConfirmPassword.value.trim()) {
-    signUpToast.showAlert("Password isn't match :(", 'red')
+    alert("Password isn't match :(")
   } else {
     createUserWithEmailAndPassword(auth, emailValueSU, passwordValueSU)
       .then((userCredential) => {
         // Signed up
         const user = userCredential.user;
+        alert("Sign up sucessfully")
+        window.location.href = "./signin.html"
         // ...
       })
       .catch((error) => {
