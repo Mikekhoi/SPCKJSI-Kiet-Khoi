@@ -15,7 +15,6 @@ body {
   z-index: 10;
   height: 0;
   margin-top: 0;
-
 }
 
 .head-outer {
@@ -27,7 +26,6 @@ body {
   text-decoration: none;
   color: #531ed2;
 }
-
 
 .nav {
   color: white !important;
@@ -44,8 +42,6 @@ body {
 .nav img {
   height: 80px;
   width: 100px;
-
-
 }
 
 .navbar-item {
@@ -80,7 +76,6 @@ body {
   margin: 80px 40px;
 }
 
-
 #mods {
   background-image: url(8b28ea342abe529f205a4a13af64b32b.jpg);
   padding: 150px;
@@ -88,13 +83,11 @@ body {
   background-repeat: no-repeat;
 }
 
-
 #media {
   padding: 20px 0;
   background-image: url(cute-light-blue-background-pt0tnt7g7p9uzkwp.jpg);
   padding-top: 90px;
 }
-
 
 #mods {
   padding-top: 90px;
@@ -103,7 +96,6 @@ body {
 #sigin {
   padding: 32px 0px;
 }
-
 
 .third {
   transition: all 0.5s ease;
@@ -159,17 +151,23 @@ img {
 
 .title {
   text-align: center;
-  color:white;
+  color: white;
+  font-size: 50px;
+  margin-bottom: 16px;
 }
 
 p {
-text-align: center;
-color: white;
+  text-align: center;
+  color: white;
 }
 
 .row h4 {
   size: 5px;
-  text-overflow: ellipsis
+  text-overflow: ellipsis;
+}
+
+.game-title {
+  margin-top: 16px;
 }
 
 button {
@@ -191,11 +189,16 @@ footer p {
   justify-content: space-between;
   padding: 48px 32px 0px;
   max-width: 100%;
-  margin:auto;
+  margin: auto;
   flex-wrap: wrap;
   border-style: solid;
   border-width: 1px 0 0 0;
-  border-image-source: linear-gradient(to right, rgba(255, 255, 255, 0), #fff 52%, rgba(255, 255, 255, 0));
+  border-image-source: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    #fff 52%,
+    rgba(255, 255, 255, 0)
+  );
   border-image-slice: 1;
 }
 
@@ -207,11 +210,10 @@ footer p {
 
 .footer-link a {
   text-decoration: none;
-  color: #FFFFFF99;
+  color: #ffffff99;
   display: flex;
   margin-bottom: 12px;
 }
-
 
 .footer-link :hover {
   color: #d98f40;
@@ -238,7 +240,7 @@ footer p {
   width: 100%;
   background-color: #d98f40;
   color: #fff;
-  font-size: 14px; 
+  font-size: 14px;
   font-weight: bold;
   padding: 14px 8px;
   border: 0;
@@ -250,7 +252,7 @@ footer p {
   font-size: 15px;
 }
 
-.networkstats{
+.networkstats {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -285,27 +287,23 @@ footer p {
   flex-basis: 50%;
 }
 .amount {
-border: 0;
-background-color: #d98f40;
-border-radius: 2px;
-color:  #fff;
-margin: 25px;
-padding: 10px;
+  border: 0;
+  background-color: #d98f40;
+  border-radius: 2px;
+  color: #fff;
+  margin: 25px;
+  padding: 10px;
 }
-
 
 .section-1 {
   text-align: center;
 }
-
-
 
 .line {
   /* background-color: #2454b2;
   color: #fff;
   position: absolute; */
 }
-
 
 .bar-icon-icon {
   width: 60px;
@@ -317,7 +315,7 @@ padding: 10px;
 
 .bar {
   border-top: 1px solid #5d5d5d;
-  background-color:#222;
+  background-color: #222;
 }
 
 .bar-items {
@@ -339,7 +337,6 @@ padding: 10px;
   letter-spacing: normal;
   color: #fff;
   margin-right: 16px;
-  
 }
 
 .bar-icon-wrapper {
@@ -354,22 +351,22 @@ padding: 10px;
 }
 
 .bar-btn {
-      width: 100%; 
-      background-color: transparent;
-      color: #d98f40;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 40px;
-      border: 1px solid #d98f40;
-      text-transform: uppercase;
-      font-weight: bold;
-      transition: all 0.15s ease-in-out;
-      letter-spacing: 1.25px;
-      font-size: 14px;
-      min-width: 150px;
-      margin: 0 80px;
-  }
+  width: 100%;
+  background-color: transparent;
+  color: #d98f40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: 1px solid #d98f40;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.15s ease-in-out;
+  letter-spacing: 1.25px;
+  font-size: 14px;
+  min-width: 150px;
+  margin: 0 80px;
+}
 
 .bar-btn:hover {
   background-color: #d98f40;
@@ -379,30 +376,30 @@ padding: 10px;
 .icon {
   opacity: 0.4;
   transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
-    display: flex;
-    width: 24px;
-    height: 24px;
-    margin-left: 32px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
-  }
+  display: flex;
+  width: 24px;
+  height: 24px;
+  margin-left: 32px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+}
 
 .icon:hover {
   opacity: 1;
   transform: scale(1.1);
   transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
-    display: flex;
+  display: flex;
 }
 
 .social-wrapper {
   display: flex;
 }
 .amount {
-background-color: #d98f40;
-color: white;
-border: 10px;
-margin: 20px;
-background-color: #ce924f;
-padding: 10px;
+  background-color: #d98f40;
+  color: white;
+  border: 10px;
+  margin: 20px;
+  background-color: #ce924f;
+  padding: 10px;
 }
 
 .amount :hover {
@@ -415,17 +412,16 @@ padding: 10px;
   height: 68px;
   border-radius: 10px;
  padding: 16px; */
- background-color: #2454b2;
- border-radius: 10px;
- position: relative;
- height: 68px;
- padding: 16px;
-
+  background-color: #2454b2;
+  border-radius: 10px;
+  position: relative;
+  height: 68px;
+  padding: 16px;
 }
 
 .inddam {
-size: 10px;
-color: white;
+  size: 10px;
+  color: white;
 }
 
 /* .Pic {
@@ -445,7 +441,7 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 60px 100%);
 .Pic img {
   object-fit: cover;
 } */
-.picture{
+.picture {
   position: absolute;
   right: 4px;
   top: 4px;
@@ -454,11 +450,11 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 60px 100%);
 .footer-btn-premium:hover {
   color: white;
   transition: all 0.2s ease-in-out;
-  background-color: #CE7F45;
+  background-color: #ce7f45;
 }
 
 .content {
-  display: flex;  
+  display: flex;
   width: 250px;
   margin: auto;
   justify-content: flex-end;
@@ -467,7 +463,6 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 60px 100%);
   width: 100%;
   margin: 0 auto;
   padding: 20px 15px;
-
 }
 .copyrights {
   width: 100%;
@@ -503,15 +498,13 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 60px 100%);
 }
 
 .line {
- text-align: left;
+  text-align: left;
   size: 5px;
   color: white;
   display: flex;
 }
 
-
-
-.banner {  
+.banner {
   flex: 1;
   height: 24px;
   width: 24px;
@@ -562,18 +555,14 @@ ul {
 .icon-plus {
   width: 10px;
   height: 10px;
-    
 }
-
 
 .load {
   position: absolute;
-
 }
 
 .tild {
-color: white;
-left: 15px;
-padding: 15px;
+  color: white;
+  left: 15px;
+  padding: 15px;
 }
-

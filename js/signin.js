@@ -1,6 +1,6 @@
 import {
-    getAuth,
-    signInWithEmailAndPassword,
+  getAuth,
+  signInWithEmailAndPassword,
 } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-auth.js";
 
 const auth = getAuth();
@@ -10,33 +10,30 @@ const signInBtn = document.getElementById("signin-btn");
 const toastHTMLElement = document.getElementById("toast");
 const toastContent = document.getElementById("toast-content");
 
-
 signInBtn.addEventListener("click", (e) => {
-    e.preventDefault();
-    var emailValueSI = signInEmail.value;
-    var passwordValueSI = signInPass.value;
+  e.preventDefault();
+  var emailValueSI = signInEmail.value;
+  var passwordValueSI = signInPass.value;
 
-    const signInToast = new Toasty(toastHTMLElement, toastContent);
-    if (emailValueSI.trim().length == 0 || passwordValueSI.trim().length == 0) {
-        alert("Không được để trống!")
-        alert("Không để trống",)
-    }
-    else {
-        signInWithEmailAndPassword(auth, emailValueSI, passwordValueSI)
-            .then((useCredential) => {
-                const user = useCredential.user;
-                console.log(user);
-                async function signIn() {
-                    signInToast.showAlert("Đăng nhập thành công!", 'green');
-                    await new Promise(resolve => setTimeout(resolve, 1000))
-                    window.location.href = "index.html";
-                }
-                signIn()
-            })
-            .catch((error) => {
-                const errorCode = error.code;
-                const errorMessage = error.message;
-                alert(errorMessage, 'red')
-            })
-    }
-})
+  const signInToast = new Toasty(toastHTMLElement, toastContent);
+  if (emailValueSI.trim().length == 0 || passwordValueSI.trim().length == 0) {
+    alert("Không để trống");
+  } else {
+    signInWithEmailAndPassword(auth, emailValueSI, passwordValueSI)
+      .then((useCredential) => {
+        const user = useCredential.user;
+        console.log(user);
+        async function signIn() {
+          signInToast.showAlert("Đăng nhập thành công!", "green");
+          await new Promise((resolve) => setTimeout(resolve, 1000));
+          window.location.href = "index.html";
+        }
+        signIn();
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        alert(errorMessage, "red");
+      });
+  }
+});

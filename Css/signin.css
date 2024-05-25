@@ -1,76 +1,74 @@
 body {
-background-image: url("/image/auth_bg-d3ae036f91b9268b6a8eb85b0a433a9dea0412ec9a4864b33f000986c1300465.png");
+  background-image: url("/image/auth_bg-d3ae036f91b9268b6a8eb85b0a433a9dea0412ec9a4864b33f000986c1300465.png");
 }
 
 .signin-container {
-    background-color: #222222;
-    width: 50%;
-    height: 100vh;
-    
+  background-color: #222222;
+  width: 50%;
+  height: 100vh;
 }
 
 .signin-info {
-    width: 500px;
-    margin: auto;
+  width: 500px;
+  margin: auto;
 }
 
 .signin-header {
-    color: white;
+  color: white;
 }
 
 .signin-header span {
-    color: #d98f40;
+  color: #d98f40;
 }
 
 .info input {
-    width: 100%;
-    padding: 10px;
-    margin: 16px 0 16px 0;
+  width: 100%;
+  padding: 10px;
+  margin: 16px 0 16px 0;
 }
 
 .email {
-    margin: 5px;
-    margin-left: 0;
-    margin-bottom: 10px;
+  margin: 5px;
+  margin-left: 0;
+  margin-bottom: 10px;
 }
 
 .btn-signin {
-    width: 100%;
-    padding: 5px;
-    background-color: #d98f40;
-    border-radius: 8px;
-    color: white;
-    padding: 7px;
-    margin: 10px 0;
+  width: 100%;
+  padding: 5px;
+  background-color: #d98f40;
+  border-radius: 8px;
+  color: white;
+  padding: 7px;
+  margin: 10px 0;
 }
 
 .btn-signin:hover {
-    background-color: #bb6333;
+  background-color: #bb6333;
 }
 .des {
-    color: #a7a7a7;
-    margin: 16px 0 16px 0;
+  color: #a7a7a7;
+  margin: 16px 0 16px 0;
 }
 
 .des span {
-    color: white;
+  color: white;
 }
 
 .help label {
-    color: white;
-    margin: 16px 0 16px 12px;
+  color: white;
+  margin: 16px 0 16px 12px;
 }
 
 .help p {
-    color: white;
+  color: white;
 }
 
 .help p a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .help p a:hover {
-    text-decoration: underline;
-    color: #d98f40;
+  text-decoration: underline;
+  color: #d98f40;
 }
-

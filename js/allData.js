@@ -16,18 +16,20 @@ onSnapshot(collectionRef, (data) => {
 
   document.querySelector("#game-list").innerHTML = "";
 
-  productList.slice(0,6).forEach((prod) => {
+  productList.forEach((prod) => {
     document.querySelector("#game-list").innerHTML += `
-        <div class="col-lg-2 col-md-3 col-sm-6 mt-4" >
-          <div>
-            <img src="${prod.image}" alt="">
-            <h4 class="game-title">${prod.name}</h4>
-          </div>
-       </div>
-      `;
+          <div class="col-lg-2 col-md-3 col-sm-6 mt-4" >
+            <div>
+              <img src="${prod.image}" alt="">
+              <h4 class="game-title">${prod.name}</h4>
+            </div>
+         </div>
+        `;
   });
 
-  document.getElementById("amount").innerHTML = `View all ${productList.length} games`;
+  document.getElementById(
+    "amount"
+  ).innerHTML = `View all ${productList.length} games`;
 
   const cartElements = document.querySelectorAll(".cart-btn");
   const detailBtns = document.querySelectorAll(".detail-btn");
