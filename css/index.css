@@ -568,5 +568,16 @@ ul {
 h1 {
   color: black;
   left: 15px;
-  
+
+}
+
+.load {
+  position: absolute;
+
+}
+
+.tild {
+color: white;
+left: 15px;
+
 }
