@@ -16,7 +16,7 @@ onSnapshot(collectionRef, (data) => {
 
   document.querySelector("#game-list").innerHTML = "";
 
-  productList.slice(0,6).forEach((prod) => {
+  productList.slice(0, 6).forEach((prod) => {
     document.querySelector("#game-list").innerHTML += `
         <div class="col-lg-2 col-md-3 col-sm-6 mt-4" >
           <div>
@@ -27,34 +27,32 @@ onSnapshot(collectionRef, (data) => {
       `;
   });
 
-  document.getElementById("amount").innerHTML = `View all ${productList.length} games`;
-
-  const cartElements = document.querySelectorAll(".cart-btn");
-  const detailBtns = document.querySelectorAll(".detail-btn");
-
-  // Thêm sự kiện click vào nút detail
-  detailBtns.forEach((btn, index) => {
-    btn.onclick = () => {
-      const product = productList[index];
-      localStorage.setItem("productDetail", product.id);
-      window.location.href = "./detail.html";
-    };
-  });
-
-  // sự kiện thêm vào giỏ hàng
-  cartElements.forEach((item, idx) => {
-    item.onclick = () => {
-      const findExistInCart = cartList.some(
-        (item) => item.id === productList[idx].id
-      );
-
-      if (findExistInCart) {
-        alert("Sản phẩm này đã được thêm từ trước!");
-      } else {
-        cartList.push(productList[idx]);
-        localStorage.setItem("cart", JSON.stringify(cartList));
-        alert("Thêm vào giỏ hàng thành công");
-      }
-    };
-  });
+  document.getElementById(
+    "amount"
+  ).innerHTML = `View all ${productList.length} games`;
 });
+
+// đưa ra navbar theo thông tin đã đăng nhập hay chưa
+const renderNavbar = () => {
+  // kiểm tra hiện tại đã có current user hay chưa
+  const currentUser =
+    localStorage.getItem("currentUser") === "null"
+      ? null
+      : localStorage.getItem("currentUser");
+
+  document.getElementById("auth-link").innerHTML = currentUser
+    ? `
+    <p class="hello ml-3">${currentUser}</p>
+    <button class="btn btn-danger" id="logout-btn" style="margin-left: 20px">Log out</button>
+  `
+    : `<a href="signin.html" class="navbar-item navbar-button">SIGN IN</a>
+    <a href="signup.html" class="navbar-item navbar-button">REGISTER</a>`;
+};
+
+renderNavbar();
+
+document.getElementById("logout-btn").onclick = () => {
+  localStorage.setItem("currentUser", null);
+  alert("Log out sucessfully");
+  renderNavbar();
+};
