@@ -170,6 +170,15 @@ p {
   margin-top: 16px;
 }
 
+#auth-link {
+  display: flex;
+}
+
+.hello {
+  margin-top: 17px;
+  font-weight: bold;
+}
+
 button {
   text-align: center;
   color: purple;

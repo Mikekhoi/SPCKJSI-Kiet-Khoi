@@ -23,7 +23,7 @@ signInBtn.addEventListener("click", (e) => {
 
         async function signIn() {
           alert("Login successfully");
-          window.location.href = "index.html";
+          window.location.href = "./index.html";
         }
         signIn();
       })
