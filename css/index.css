@@ -480,23 +480,7 @@ span.label{
   margin-bottom: 0;
   text-align: left;
 }
-/* .Pic {
-position: absolute;
-right: 4px;
-  top: 4px;
-  height: 100%;
-clip-path: polygon(0 0, 100% 0, 100% 100%, 60px 100%);
- background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  width: 644px;
-  object-fit: cover;
-  object-position: 0%;
 
-}
-.Pic img {
-  object-fit: cover;
-} */
 .picture {
   position: absolute;
   right: 4px;
