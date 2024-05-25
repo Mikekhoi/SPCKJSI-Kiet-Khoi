@@ -565,11 +565,6 @@ ul {
     
 }
 
-h1 {
-  color: black;
-  left: 15px;
-
-}
 
 .load {
   position: absolute;
@@ -579,5 +574,6 @@ h1 {
 .tild {
 color: white;
 left: 15px;
-
+padding: 15px;
 }
+
