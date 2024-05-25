@@ -1,102 +1,104 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box ;
-    background-image: url(/image/auth_bg-d3ae036f91b9268b6a8eb85b0a433a9dea0412ec9a4864b33f000986c1300465.png);
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(/image/auth_bg-d3ae036f91b9268b6a8eb85b0a433a9dea0412ec9a4864b33f000986c1300465.png);
 }
 .signup {
-    border-left: 1px solid rgba(255, 255, 255, .16);
-    max-width: 50%;
-    height: 100vh !important;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    color: white;
-    background-color: #222222;
-    box-sizing: border-box;
-    padding: 40px 0;
-    font-size: 30px;
+  border-left: 1px solid rgba(255, 255, 255, 0.16);
+  max-width: 50%;
+  height: 100vh !important;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  color: white;
+  background-color: #222222;
+  box-sizing: border-box;
+  padding: 40px 0;
+  font-size: 30px;
 }
 
 .signup h1 {
-    margin-top: 0;
+  margin-top: 0;
 }
 .signup input {
-    padding: 16px;
+  padding: 16px;
 }
 
 h1 span {
-    color: #d98f40;
-    font-family: Montserrat, Helvetica, sans-serif;
+  color: #d98f40;
+  font-family: Montserrat, Helvetica, sans-serif;
 }
 .test {
-    color: #57a5cc;
-    text-decoration: none;
+  color: #57a5cc;
+  text-decoration: none;
 }
 .test:hover {
-    color: orange;
-    text-decoration: underline;
+  color: orange;
+  text-decoration: underline;
 }
 
 .aquire-help {
-    color: #57a5cc;
-    text-decoration: none;
+  color: #57a5cc;
+  text-decoration: none;
 }
 
 .aquire-help:hover {
-    color: orange;
-    text-decoration: underline;
+  color: orange;
+  text-decoration: underline;
 }
 .email {
-    margin: 5px 3.5px 10px 0;
-    
+  margin: 5px 3.5px 10px 0;
 }
 
 .btn-primary {
-    padding: 10px;
-    width: 200px;
-    margin-bottom: 10px;
-    position: relative;
-    left: 100px;
-    background-color: #d98f40;
-    color: white;
-    transition: all .1s ease-in-out;
-    border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 100px;
+  background-color: #d98f40;
+  color: white;
+  transition: all 0.1s ease-in-out;
+  border-radius: 8px;
 }
 
 .btn-primary:hover {
-    background-color: #bb6333;
-    
+  background-color: #bb6333;
 }
 
-.button {
-   padding: 24px 0px 0px;
+button {
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 24px 0px 0px;
+  outline: none;
+  border: none;
+  font-size: 20px;
 }
 
 .Remember {
-    font-size: 15px;
-    margin-bottom: 10px;
-    margin-top: 5px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
 
 .copyrights {
-    color: rgba(255, 255, 255, .6);
-    font-size: 13px;
-    margin-bottom: 40px;
-    text-align: center;
-    width: 63%;
-    padding: 24px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 63%;
+  padding: 24px;
 }
 .copyrights a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
-.copyrights a:hover{ 
-    text-decoration: underline;
+.copyrights a:hover {
+  text-decoration: underline;
 }
 
 .pt-2 {
-    color: rgba(255,255,255,.6);
+  color: rgba(255, 255, 255, 0.6);
 }
