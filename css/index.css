@@ -170,6 +170,15 @@ p {
   margin-top: 16px;
 }
 
+#auth-link {
+  display: flex;
+}
+
+.hello {
+  margin-top: 17px;
+  font-weight: bold;
+}
+
 button {
   text-align: center;
   color: purple;
@@ -406,17 +415,13 @@ footer p {
   background-color: #9d6a34;
 }
 .databg {
-  /* background-color: #2454b2;
-  color: white;
-  position: relative;
-  height: 68px;
-  border-radius: 10px;
- padding: 16px; */
+  font-size: 20px;
   background-color: #2454b2;
   border-radius: 10px;
   position: relative;
   height: 68px;
   padding: 16px;
+  margin-top: 20px;
 }
 
 .inddam {
@@ -424,23 +429,58 @@ footer p {
   color: white;
 }
 
-/* .Pic {
-position: absolute;
-right: 4px;
-  top: 4px;
-  height: 100%;
-clip-path: polygon(0 0, 100% 0, 100% 100%, 60px 100%);
- background-position: center;
-  background-repeat: no-repeat;
+.tiles{
   display: flex;
-  width: 644px;
-  object-fit: cover;
-  object-position: 0%;
-
+  color: white;
+  flex-wrap: wrap
 }
-.Pic img {
+.tile-desc{
+  text-align: left;
+  padding: 11px 15px 13px 15px;
+  background-color: #444;
+}
+.tile-name{
+  margin-bottom: 0;
+  text-align: left;
+}
+.mod-tile{
+  
+  width: 24%;
+  margin: 5px 0.5%;
+}
+.image_figure{
+  width: 100%;
+  height: 133px;
+}
+.image_figure img{
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-} */
+}
+span.label{
+  color: #969595;
+}
+.tile-content .tile-name a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+.clearfix{
+  font-size: 10px;
+  margin-bottom: 4px;
+}
+.category a,.author a{
+  text-decoration: none;
+  color: #da8e35;
+  font-size: 10px !important;
+}
+
+.desc{
+  font-size: 13px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
 .picture {
   position: absolute;
   right: 4px;
@@ -502,6 +542,7 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 60px 100%);
   size: 5px;
   color: white;
   display: flex;
+  align-items: center;
 }
 
 .banner {
@@ -515,12 +556,21 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 60px 100%);
 }
 
 .user-profile-menu-icon-collections {
+  display: inline-block;
   background-image: url(https://www.nexusmods.com/assets/images/icons/icon-collections.svg);
   width: 24px;
   height: 24px;
+  background-position: center;
   background-repeat: no-repeat;
+  margin-right: 5px;
 }
 
+.indam{
+  font-weight: 700;
+}
+.line a{
+  font-weight: 100;
+}
 /* .expandtitle-img:hover {
   opacity: 1;
 }
@@ -559,6 +609,9 @@ ul {
 
 .load {
   position: absolute;
+  top: 4px;
+  right: 4px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 60px 100%);
 }
 
 .tild {
